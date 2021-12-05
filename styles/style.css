@@ -195,20 +195,23 @@ header nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   list-style: none;
   margin: 0 auto;
 }
 
-h1 {
-  font-size: 80px;
-  color: white;
+.index-header {
+  height: 80vh;
 }
 
-a {
-  font-size: 20px;
-  font-weight: bold;
+header nav li {
+  margin: 0 20px;
+  padding: 20px 0;
 }
 
 .index-title {
@@ -229,16 +232,33 @@ h3,
 h4,
 button {
   font-family: "Abril Fatface", cursive;
-  color: white;
   text-transform: uppercase;
   letter-spacing: 1px;
-}
-
-button {
-  color: black;
 }
 
 p,
 a {
   font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-size: 80px;
+  line-height: 92px;
+}
+
+h2 {
+  font-size: 42px;
+}
+
+a {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+h1,
+a,
+header nav h2 {
+  color: white;
 }
