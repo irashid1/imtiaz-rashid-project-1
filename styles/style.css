@@ -246,6 +246,11 @@ h1 {
   line-height: 92px;
 }
 
+.index-title h1 {
+  font-size: 92px;
+  font-weight: 100;
+}
+
 h2 {
   font-size: 42px;
 }
