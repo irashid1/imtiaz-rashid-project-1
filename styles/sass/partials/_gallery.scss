@@ -3,6 +3,9 @@
     justify-content: center;
     margin: 50px auto;
 }
+.gallery img {
+    width: 100%;
+}
 
 .galleryContainer img {
     width: calc(100% / 3 - 50px);
