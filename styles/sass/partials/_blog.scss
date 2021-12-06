@@ -1,0 +1,31 @@
+.flexParent {
+  padding: 40px 0;
+}
+
+.flexChild {
+    display: flex;
+}
+
+.flexChild img {
+    width: 50%;
+}
+
+.wordContainer {
+    width: 50%;
+    padding: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.wordContainer p {
+    color: black;
+}
+
+.wordContainer button {
+    background-color: #e4a436;
+    width: 200px;
+    height: 50px;
+    border: none;
+
+}

@@ -1,0 +1,38 @@
+.index-about {
+    margin: 75px auto;
+    text-align: center;
+    h2, p, button {
+        margin: 15px 0;
+    }
+}
+
+// index-post start
+
+.index-post button, 
+.index-about button {
+    background-color: #e4a436;
+    width: 200px;
+    height: 50px;
+    border: none;
+}
+
+.aboutFlex {
+    display: flex;
+}
+
+.aboutImg {
+    width: calc(40% - 40px);
+    margin-right: 40px;
+    padding: 50px;
+}
+
+.contentContainer {
+    width: 60%;
+    padding: 25px;
+}
+
+.contentContainer p {
+    padding: 20px 0;
+}
+
+// end of index-post

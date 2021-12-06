@@ -1,0 +1,10 @@
+.galleryContainer {
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+.galleryContainer img {
+    width: calc(100% / 3 - 50px);
+    margin: 15px;
+}

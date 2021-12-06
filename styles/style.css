@@ -255,6 +255,10 @@ h2 {
   font-size: 42px;
 }
 
+h3 {
+  font-size: 32px;
+}
+
 a {
   font-size: 20px;
   font-weight: bold;
@@ -266,4 +270,101 @@ h1,
 a,
 header nav h2 {
   color: white;
+}
+
+.index-about {
+  margin: 75px auto;
+  text-align: center;
+}
+.index-about h2, .index-about p, .index-about button {
+  margin: 15px 0;
+}
+
+.index-post button,
+.index-about button {
+  background-color: #e4a436;
+  width: 200px;
+  height: 50px;
+  border: none;
+}
+
+.aboutFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.aboutImg {
+  width: calc(40% - 40px);
+  margin-right: 40px;
+  padding: 50px;
+}
+
+.contentContainer {
+  width: 60%;
+  padding: 25px;
+}
+
+.contentContainer p {
+  padding: 20px 0;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.galleryContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 50px auto;
+}
+
+.galleryContainer img {
+  width: calc(100% / 3 - 50px);
+  margin: 15px;
+}
+
+.flexParent {
+  padding: 40px 0;
+}
+
+.flexChild {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flexChild img {
+  width: 50%;
+}
+
+.wordContainer {
+  width: 50%;
+  padding: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.wordContainer p {
+  color: black;
+}
+
+.wordContainer button {
+  background-color: #e4a436;
+  width: 200px;
+  height: 50px;
+  border: none;
 }
