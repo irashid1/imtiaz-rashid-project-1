@@ -50,9 +50,12 @@
 
 .blog-first-comment, 
 .blog-second-comment {
+    display: flex;
     padding: 35px;
     img {
         display: block;
+        height: 100%;
+        padding-right: 25px;
     }
 }
 
