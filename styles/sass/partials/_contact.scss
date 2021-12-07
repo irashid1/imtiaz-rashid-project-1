@@ -1,24 +1,26 @@
-.index-contact {
-    padding: 35px 0;
-    background-color: #f6f6f6;
-    display: flex;
+// contact.html styling
+
+.contact-card {
+    background-color: white;
+    margin: 50px;
+    padding: 20px 0;
 }
 
-.top-contact-card, 
-.bottom-contact-card {
+.contact-card ul {
+    list-style: none;
     display: flex;
-    .cards {
-        width: 50%;
-        padding: 15px;
+    li {
+        padding-right: 20px;
+        font-size: 35px;
     }
-    h3, 
-    p {
-        margin: 10px;
-    }
+
 }
 
+.contact-address {
+    padding-left: 25px;
+}
 
-// contact.html
+// contact-container-parent styling
 
 
 .contact-container-parent {
@@ -26,9 +28,9 @@
 }
 
 .contact-left-container {
-    width: 40%;
+    width: 30%;
 }
 
 .contact-right-container {
-    width: 60%;
+    width: 70%;
 }
