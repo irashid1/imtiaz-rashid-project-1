@@ -229,21 +229,21 @@ header nav li {
 .blog-header-title {
   background-image: url(../assets/blog-image-1.jpg);
   height: 400px;
+  position: relative;
 }
 .blog-header-title h1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  position: absolute;
+  bottom: 0px;
 }
 
 .contact-header-title {
   background-image: url(../assets/contact-image-1.jpg);
   height: 400px;
+  position: relative;
 }
 .contact-header-title h1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  position: absolute;
+  bottom: 0px;
 }
 
 h1,
@@ -401,12 +401,18 @@ a {
   border: none;
 }
 
-.left {
-  width: 25%;
+.container-parent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.right {
-  width: 65%;
+.left-container {
+  width: 40%;
+}
+
+.right-container {
+  width: 60%;
 }
 
 footer {
@@ -442,12 +448,16 @@ footer {
   margin: 10px;
 }
 
-.contact-us {
+.contact-container-parent {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.contact-card {
-  width: 30%;
+.contact-left-container {
+  width: 40%;
+}
+
+.contact-right-container {
+  width: 60%;
 }

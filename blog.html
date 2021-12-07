@@ -37,109 +37,112 @@
 
 
     <main>
-
-
-        <div class="left">
-            <section>
-                <img src="./assets/blog-image-2.jpg"
-                    alt="an image of willow, the writer of this blog, who is a young woman with brown hair and wearing a yellow rain jacket ">
-                <h3>About Willow</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam possimus enim quisquam excepturi
-                    pariatur alias sequi facere hic ex. Iure suscipit nesciunt repudiandae velit ut!</p>
-            </section>
-            <!-- end of about willow section -->
-
-            <section>
-                <ul>
-                    <li>Lorem ipsum dolor sit.</li>
-                    <li>Lorem ipsum dolor sit.</li>
-                    <li>Lorem ipsum dolor sit.</li>
-                    <li>Lorem ipsum dolor sit.</li>
-                </ul>
-            </section>
-            <!-- end of recent posts -->
-        </div>
-
-        <div class="right">
-            <section>
-                <h2>My Favourite Travel Destination</h2>
-                <p>current date, by author</p> <!-- can I include variables here? -->
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae non veniam quam ab. Natus explicabo
-                    blanditiis quo eveniet dolorem ab dolore aliquam quas ullam odio perferendis ea deleniti similique,
-                    earum sit? Corrupti non laboriosam autem veniam similique beatae nesciunt libero maxime laudantium,
-                    nobis saepe dolor magni iure repudiandae tempore fugiat soluta eveniet iste deleniti ratione aperiam
-                    laborum. Odit sequi, laudantium optio minima facere quos inventore quae consectetur? Suscipit eum
-                    optio, magnam magni quod vel autem tenetur, excepturi adipisci eveniet laudantium hic fugit
-                    voluptatem quidem, dignissimos eligendi? Sint minima, ullam odit doloribus deserunt pariatur
-                    delectus deleniti eos explicabo corporis quos ducimus totam hic modi eligendi. Tenetur tempora iure
-                    repellendus, voluptatum odio magnam! Voluptas veritatis laborum quae. Explicabo officiis molestiae
-                    ab tempore pariatur officia ratione numquam dolores similique, expedita laudantium assumenda
-                    dignissimos in magnam sunt omnis illum facilis, vero et a aspernatur quasi consequuntur. Dolores
-                    velit necessitatibus quod voluptatem dolor repellat iure debitis, consequatur dolorem incidunt quam
-                    doloremque distinctio commodi nemo veritatis rerum veniam libero? Corrupti, possimus. Quaerat eos
-                    inventore cumque, adipisci quae vero incidunt quam, deserunt illum tempora porro rem odio
-                    perferendis repellendus iure odit in. Quam quia adipisci ipsa temporibus, veritatis itaque at
-                    nostrum ipsam animi, ducimus repellat pariatur soluta?</p>
-            </section>
-            <!-- end of blog section -->
-
-            <section>
-                <div class="firstComment">
-                    <img src="./assets/blog-image-3.jpg" alt="a brown haired woman wearing a black round hat">
-                    <p>current date, by author</p> <!-- can I include variables here? -->
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis sapiente eligendi aut
-                        reiciendis, minus consectetur nesciunt rerum earum, quam pariatur quas reprehenderit doloribus
-                        officia voluptatem totam mollitia quis corporis aliquam libero repudiandae dolorem sed. Totam ut
-                        laboriosam hic fugiat expedita. Accusamus eligendi unde porro quisquam nisi culpa temporibus
-                        accusantium dolor!</p>
+        <div class="container-parent">
+            <section class="left-container">
+                <div class="wrapper blog-about">
+                    <img src="./assets/blog-image-2.jpg"
+                        alt="an image of willow, the writer of this blog, who is a young woman with brown hair and wearing a yellow rain jacket ">
+                    <h3>About Willow</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam possimus enim quisquam
+                        excepturi
+                        pariatur alias sequi facere hic ex. Find out more.</p>
                 </div>
-                <div class="secondComment">
-                    <img src="./assets/blog-image-4.jpg" alt="image of a young man">
-                    <p>current date, by author</p> <!-- can I include variables here? -->
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis sapiente eligendi aut
-                        reiciendis, minus
-                        consectetur nesciunt rerum earum, quam pariatur quas reprehenderit doloribus officia voluptatem
-                        totam mollitia
-                        quis corporis aliquam libero repudiandae dolorem sed. Totam ut laboriosam hic fugiat expedita.
-                        Accusamus
-                        eligendi unde porro quisquam nisi culpa temporibus accusantium dolor!</p>
+                <div class="wrapper blog-post">
+                    <h3>Recent Posts</h3>
+                    <ul>
+                        <li>Lorem ipsum dolor sit.</li>
+                        <li>Lorem ipsum dolor sit.</li>
+                        <li>Lorem ipsum dolor sit.</li>
+                        <li>Lorem ipsum dolor sit.</li>
+                    </ul>
                 </div>
             </section>
-            <!-- end of comments -->
 
-            <section class="messageSection">
+            <section class="right-container">
 
-                <div class="wrapper">
-
-                    <div class="messageBox">
-                        <form action="#">
-                            <div class="userInputs">
-
-                                <div class="userInput1">
-                                    <label for="name">Name</label>
-                                    <input type="text" id="name" name="name" size="50">
-                                </div>
-
-                                <div class="userInput2">
-                                    <label for="email">Email</label>
-                                    <input type="email" id="email" name="email" size="75">
-                                </div>
-
-                            </div>
-
-                            <label for="message">Message</label>
-                            <textarea name="message" id="message" cols="100" rows="10"></textarea>
-
-                            <div class="button">
-                                <button type="submit">Send Message</button>
-                            </div>
-                        </form>
+                <div class="wrapper blog-newest-post">
+                    <h2>My Favourite Travel Destination</h2>
+                    <p>current date, by author</p> <!-- can I include variables here? -->
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae non veniam quam ab. Natus
+                        explicabo
+                        blanditiis quo eveniet dolorem ab dolore aliquam quas ullam odio perferendis ea deleniti
+                        similique,
+                        earum sit? Corrupti non laboriosam autem veniam similique beatae nesciunt libero maxime
+                        laudantium,
+                        nobis saepe dolor magni iure repudiandae tempore fugiat soluta eveniet iste deleniti ratione
+                        aperiam
+                        laborum. Odit sequi, laudantium optio minima facere quos inventore quae consectetur? Suscipit
+                        eum
+                        optio, magnam magni quod vel autem tenetur, excepturi adipisci eveniet laudantium hic fugit
+                        voluptatem quidem, dignissimos eligendi? Sint minima, ullam odit doloribus deserunt pariatur
+                        delectus deleniti eos explicabo corporis quos ducimus totam hic modi eligendi. Tenetur tempora
+                        iure
+                        repellendus, voluptatum odio magnam! Voluptas veritatis laborum quae. Explicabo officiis
+                        molestiae
+                        ab tempore pariatur officia ratione numquam dolores similique, expedita laudantium assumenda
+                        dignissimos in magnam sunt omnis illum facilis, vero et a aspernatur quasi consequuntur. Dolores
+                        velit necessitatibus quod voluptatem dolor repellat iure debitis, consequatur dolorem incidunt
+                        quam
+                        doloremque distinctio commodi nemo veritatis rerum veniam libero? Corrupti, possimus. Quaerat
+                        eos
+                        inventore cumque, adipisci quae vero incidunt quam, deserunt illum tempora porro rem odio
+                        perferendis repellendus iure odit in. Quam quia adipisci ipsa temporibus, veritatis itaque at
+                        nostrum ipsam animi, ducimus repellat pariatur soluta?</p>
+                </div>
+                <div class="wrapper blog-post-comment">
+                    <div class="blog-first-comment">
+                        <img src="./assets/blog-image-3.jpg" alt="a brown haired woman wearing a black round hat">
+                        <p>current date, by author</p> <!-- can I include variables here? -->
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis sapiente eligendi aut
+                            reiciendis, minus consectetur nesciunt rerum earum, quam pariatur quas reprehenderit
+                            doloribus
+                            officia voluptatem totam mollitia quis corporis aliquam libero repudiandae dolorem sed.
+                            Totam ut
+                            laboriosam hic fugiat expedita. Accusamus eligendi unde porro quisquam nisi culpa temporibus
+                            accusantium dolor!</p>
+                    </div>
+                    <div class="blog-second-comment">
+                        <img src="./assets/blog-image-4.jpg" alt="image of a young man">
+                        <p>current date, by author</p> <!-- can I include variables here? -->
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis sapiente eligendi aut
+                            reiciendis, minus
+                            consectetur nesciunt rerum earum, quam pariatur quas reprehenderit doloribus officia
+                            voluptatem
+                            totam mollitia
+                            quis corporis aliquam libero repudiandae dolorem sed. Totam ut laboriosam hic fugiat
+                            expedita.
+                            Accusamus
+                            eligendi unde porro quisquam nisi culpa temporibus accusantium dolor!</p>
                     </div>
 
                 </div>
+                <div class="wrapper messageBox">
+                    <form action="#">
+                        <div class="userInputs">
+
+                            <div class="userInput1">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" size="50">
+                            </div>
+
+                            <div class="userInput2">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" size="75">
+                            </div>
+
+                        </div>
+
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="100" rows="10"></textarea>
+
+                        <div class="button">
+                            <button type="submit">Send Message</button>
+                        </div>
+                    </form>
+                </div>
 
             </section>
-            <!-- end of message section -->
+
         </div>
     </main>
 

@@ -40,9 +40,10 @@ header nav li {
 .blog-header-title {
     background-image: url(../assets/blog-image-1.jpg);
     height: 400px;
+    position: relative;
     h1 {
-        display: flex;
-
+        position: absolute;
+        bottom: 0px;
     }
 }
 
@@ -54,9 +55,10 @@ header nav li {
 .contact-header-title {
     background-image: url(../assets/contact-image-1.jpg);
     height: 400px;
+    position: relative;
     h1 {
-        display: flex;
-
+        position: absolute;
+        bottom: 0px;
     }
 }
 

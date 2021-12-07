@@ -33,10 +33,14 @@
 
 // blog.html styling
 
-.left {
-    width: 25%;
+.container-parent {
+    display: flex;
 }
 
-.right {
-    width: 65%;
+.left-container {
+    width: 40%;
+}
+
+.right-container {
+    width: 60%;
 }

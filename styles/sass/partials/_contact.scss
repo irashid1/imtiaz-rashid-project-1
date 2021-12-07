@@ -21,10 +21,14 @@
 // contact.html
 
 
-.contact-us {
+.contact-container-parent {
     display: flex;
 }
 
-.contact-card {
-    width: 30%;
+.contact-left-container {
+    width: 40%;
+}
+
+.contact-right-container {
+    width: 60%;
 }
