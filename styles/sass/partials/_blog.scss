@@ -6,10 +6,13 @@
 
 .left-container {
     width: 30%;
+    margin-right: 15px;
 }
 
 .right-container {
     width: 70%;
+    margin-bottom: 35px;
+    margin-left: 15px;
 }
 
 // left container styling and border
@@ -22,26 +25,44 @@
 
 }
 
+.blog-about img {
+    width: 100%;
+}
+
 // right container styling and border
 
 .blog-newest-post, 
-.blog-post-comment {
+.blog-first-comment,
+.blog-second-comment {
     background-color: white;
-    padding: 35px;
     margin-top: 35px;
+}
+
+.blog-newest-post, 
+.blog-second-comment {
     border-top: 0px;
     border-bottom: 5px;
     border-left: 0px;
     border-right: 0px;
     border-style: solid;
-    border-color: #ffd600;
+    border-color: #709b6b;
 }
 
+.blog-first-comment, 
 .blog-second-comment {
-    margin-top: 35px;
+    padding: 35px;
+    img {
+        display: block;
+    }
 }
 
-
+.blog-newest-post {
+    padding: 35px;
+    h2, 
+    p {
+        padding: 25px;
+    }
+}
 
 // messageBox styling
 

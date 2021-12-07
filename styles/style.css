@@ -339,11 +339,56 @@ a {
 
 main {
   background-color: #f6f6f6;
+  min-height: 45vh;
 }
 
 .wrapper {
   margin: 0 auto;
   width: 85%;
+}
+
+.flexParent {
+  padding: 40px 0;
+}
+
+.flexChild {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flexChild img {
+  width: 50%;
+}
+
+.wordContainer {
+  width: 50%;
+  padding: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.wordContainer p {
+  color: black;
+}
+
+.wordContainer span {
+  display: block;
+}
+
+.wordContainer button {
+  background-color: #e4a436;
+  width: 200px;
+  height: 50px;
+  border: none;
 }
 
 .galleryContainer {
@@ -374,10 +419,13 @@ main {
 
 .left-container {
   width: 30%;
+  margin-right: 15px;
 }
 
 .right-container {
   width: 70%;
+  margin-bottom: 35px;
+  margin-left: 15px;
 }
 
 .blog-about,
@@ -387,21 +435,42 @@ main {
   margin-top: 35px;
 }
 
+.blog-about img {
+  width: 100%;
+}
+
 .blog-newest-post,
-.blog-post-comment {
+.blog-first-comment,
+.blog-second-comment {
   background-color: white;
-  padding: 35px;
   margin-top: 35px;
+}
+
+.blog-newest-post,
+.blog-second-comment {
   border-top: 0px;
   border-bottom: 5px;
   border-left: 0px;
   border-right: 0px;
   border-style: solid;
-  border-color: #ffd600;
+  border-color: #709b6b;
 }
 
+.blog-first-comment,
 .blog-second-comment {
-  margin-top: 35px;
+  padding: 35px;
+}
+.blog-first-comment img,
+.blog-second-comment img {
+  display: block;
+}
+
+.blog-newest-post {
+  padding: 35px;
+}
+.blog-newest-post h2,
+.blog-newest-post p {
+  padding: 25px;
 }
 
 form {
@@ -457,6 +526,32 @@ footer {
   color: white;
   text-align: center;
   padding: 10px;
+}
+
+.index-contact {
+  padding: 35px 0;
+  background-color: #f6f6f6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.top-contact-card,
+.bottom-contact-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.top-contact-card .cards,
+.bottom-contact-card .cards {
+  width: 50%;
+  padding: 15px;
+}
+.top-contact-card h3,
+.top-contact-card p,
+.bottom-contact-card h3,
+.bottom-contact-card p {
+  margin: 10px;
 }
 
 .contact-card {
