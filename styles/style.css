@@ -214,6 +214,10 @@ header nav li {
   padding: 20px 0;
 }
 
+.homePage {
+  color: #e4a436;
+}
+
 .index-title {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -323,6 +327,8 @@ a {
   width: calc(40% - 40px);
   margin-right: 40px;
   padding: 50px;
+  -ms-flex-item-align: center;
+      align-self: center;
 }
 
 .contentContainer {
@@ -474,7 +480,7 @@ main {
 }
 
 form {
-  max-width: 80%;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
