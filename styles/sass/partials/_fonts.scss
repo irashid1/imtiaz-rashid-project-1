@@ -21,6 +21,12 @@ h1 {
     line-height: 92px;
 }
 
+h1, 
+a,
+header nav h2 {
+    color: white;
+}
+
 .index-title h1 {
     font-size: 92px;
     font-weight: 100;
@@ -41,8 +47,3 @@ a {
     text-transform: uppercase;
 }
 
-h1, 
-a,
-header nav h2 {
-    color: white;
-}

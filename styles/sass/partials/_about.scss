@@ -1,12 +1,16 @@
 .index-about {
-    margin: 75px auto;
+    padding: 100px auto;
     text-align: center;
+    background-color: #f6f6f6;
     h2, p, button {
-        margin: 20px 0;
+        margin: 15px 0;
     }
 }
-
 // index-post start
+
+.index-post {
+    background-color: #f6f6f6;
+}
 
 .index-post button, 
 .index-about button {
@@ -28,7 +32,10 @@
 
 .contentContainer {
     width: 60%;
-    padding: 25px;
+    padding: 100px;
+    h2 {
+        padding: 20px 0;
+    }
 }
 
 .contentContainer p {

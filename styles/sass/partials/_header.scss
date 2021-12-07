@@ -30,3 +30,34 @@ header nav li {
     justify-content: center;
     align-items: center;
 }
+
+
+// end of index-header styling 
+
+
+// start of blog-header styling
+
+.blog-header-title {
+    background-image: url(../assets/blog-image-1.jpg);
+    height: 400px;
+    h1 {
+        display: flex;
+
+    }
+}
+
+
+// end of blog-header styling
+
+// start of contact-header styling
+
+.contact-header-title {
+    background-image: url(../assets/contact-image-1.jpg);
+    height: 400px;
+    h1 {
+        display: flex;
+
+    }
+}
+
+// end of contact-header styling 

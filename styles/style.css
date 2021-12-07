@@ -226,6 +226,26 @@ header nav li {
           align-items: center;
 }
 
+.blog-header-title {
+  background-image: url(../assets/blog-image-1.jpg);
+  height: 400px;
+}
+.blog-header-title h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact-header-title {
+  background-image: url(../assets/contact-image-1.jpg);
+  height: 400px;
+}
+.contact-header-title h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 h1,
 h2,
 h3,
@@ -244,6 +264,12 @@ a {
 h1 {
   font-size: 80px;
   line-height: 92px;
+}
+
+h1,
+a,
+header nav h2 {
+  color: white;
 }
 
 .index-title h1 {
@@ -266,18 +292,17 @@ a {
   text-transform: uppercase;
 }
 
-h1,
-a,
-header nav h2 {
-  color: white;
-}
-
 .index-about {
-  margin: 75px auto;
+  padding: 100px auto;
   text-align: center;
+  background-color: #f6f6f6;
 }
 .index-about h2, .index-about p, .index-about button {
-  margin: 20px 0;
+  margin: 15px 0;
+}
+
+.index-post {
+  background-color: #f6f6f6;
 }
 
 .index-post button,
@@ -302,7 +327,10 @@ header nav h2 {
 
 .contentContainer {
   width: 60%;
-  padding: 25px;
+  padding: 100px;
+}
+.contentContainer h2 {
+  padding: 20px 0;
 }
 
 .contentContainer p {
@@ -373,6 +401,14 @@ header nav h2 {
   border: none;
 }
 
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 65%;
+}
+
 footer {
   background-color: black;
   color: white;
@@ -404,4 +440,14 @@ footer {
 .bottom-contact-card h3,
 .bottom-contact-card p {
   margin: 10px;
+}
+
+.contact-us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact-card {
+  width: 30%;
 }
