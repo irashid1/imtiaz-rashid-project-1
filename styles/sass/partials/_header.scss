@@ -12,6 +12,9 @@ header nav ul {
     margin: 0 auto;
 }
 
+// i.fa-bars {
+//      visibility: hidden;
+// }
 // end of general styling
 
 // start index-header styling
@@ -25,9 +28,9 @@ header nav li {
     padding: 20px 0;
 }
 
-.homePage {
-    color: #e4a436;
-} 
+// header nav li a:nth-child(1) {
+//     color: #e4a436;
+// } <-- why is this not working?
 
 .index-title {
     display: flex;
@@ -46,9 +49,9 @@ header nav li {
     height: 400px;
     position: relative;
     h1 {
-        position: absolute;
-        bottom: 0px;
-    }
+    position: absolute;
+    bottom: -15px;
+}
 }
 
 
@@ -61,9 +64,9 @@ header nav li {
     height: 400px;
     position: relative;
     h1 {
-        position: absolute;
-        bottom: 0px;
-    }
+    position: absolute;
+    bottom: -15px;
+}
 }
 
 // end of contact-header styling 

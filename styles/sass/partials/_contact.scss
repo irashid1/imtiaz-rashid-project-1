@@ -25,21 +25,25 @@
 .contact-card {
     background-color: white;
     margin: 50px;
-    padding: 20px 0;
+    // padding: 20px;
 }
 
 .contact-card ul {
     list-style: none;
     display: flex;
+    padding: 0;
     li {
-        padding-right: 20px;
-        font-size: 35px;
+        // padding-right: 20px;
+        font-size: 25px;
+        letter-spacing: 15px;
+        color: #345231;
     }
 
 }
 
+.contact-media-icons, 
 .contact-address {
-    padding-left: 25px;
+    padding: 10px 25px;
 }
 
 // contact-container-parent styling
