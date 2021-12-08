@@ -31,6 +31,27 @@
     display: flex;
     text-align: center;
 }
+
+// blog media 
+
+.container-parent {
+    flex-direction: column;
+}
+
+.left-container {
+    width: 100%;
+}
+
+.right-container {
+    width: 100%;
+}
+
+
+
+
+
+// contact media 
+
     .contact-left-container,
     .contact-right-container {
         width: 100%;

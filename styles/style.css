@@ -635,6 +635,21 @@ footer {
     text-align: center;
   }
 
+  .container-parent {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .left-container {
+    width: 100%;
+  }
+
+  .right-container {
+    width: 100%;
+  }
+
   .contact-left-container,
 .contact-right-container {
     width: 100%;
