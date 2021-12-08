@@ -75,6 +75,10 @@
 .contact-card ul {
     justify-content: center;
 }
+
+.post-comment-button {
+    margin: 10px 0;
+  }
   
 //   .aboutImg {
 //     padding: 0;
@@ -162,10 +166,25 @@
     //  visibility: hidden;
     // }
 
-    //     img {
-//         width: 100%;
-//     }
+        img {
+        width: 100%;
+    }
     
+
+.userInputs {
+    flex-direction: column;
+}
+
+.userInput1, 
+.userInput2 {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.contact-message-box form {
+    padding-top: 0px;
+}
+
 //   .galleryContainer img:last-child {
 //     width: 0;
 //   }
@@ -191,9 +210,7 @@ h1 {
 
 
 
-    //   .userEmail {
-//     flex-direction: column;
-//   }
+
   
 //   .subscribe {
 //     width: 100%;
