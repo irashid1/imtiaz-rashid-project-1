@@ -286,10 +286,12 @@ header nav h2 {
 
 h2 {
   font-size: 42px;
+  font-weight: 100;
 }
 
 h3 {
   font-size: 32px;
+  font-weight: 100;
 }
 
 a {
@@ -327,11 +329,15 @@ a {
 }
 
 .about-image {
-  width: calc(40% - 40px);
-  margin-right: 40px;
-  padding: 50px;
+  margin: 50px;
   -ms-flex-item-align: center;
       align-self: center;
+}
+.about-image img {
+  display: block;
+  float: left;
+  -webkit-box-shadow: 20px 20px #709b6b;
+          box-shadow: 20px 20px #709b6b;
 }
 
 .content-container {
