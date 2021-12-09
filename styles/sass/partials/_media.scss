@@ -2,6 +2,24 @@
 
 @media (max-width: 1200px) {
 
+    .index-title img {
+        padding-top: 50px;
+    }
+
+    .about-img {
+    padding: 0;
+    width: 80%;
+    max-width: 350px;
+    align-self: center;
+  }
+  
+  .flex-child img {
+    max-width: 650px;
+  }
+  
+  .word-container {
+    padding: 35px;
+  }
   
 }
 
@@ -78,13 +96,31 @@
     margin: 10px 0;
   }
   
-//   .aboutImg {
-//     padding: 0;
-//     width: 80%;
-//     max-width: 350px;
-//     justify-content: center;
-//     margin-top: 20px
-//   }
+
+
+
+// about section in index
+
+
+  .about-flex {
+      flex-direction: column;
+      align-items: center;
+      padding-top: 50px;
+  }
+
+  .about-image {
+    padding: 0;
+    width: 80%;
+    max-width: 350px;
+    justify-content: center;
+    margin-top: 20px
+  }
+
+  .content-container {
+    width: 80%;
+    text-align: center;
+    padding-top: 20px;
+  }
   
 //   .about button {
 //     width: 100%;
@@ -96,28 +132,32 @@
 //     margin: 20px 0;
 //   }
   
-//   .contentContainer {
-//     width: 100%;
-//   }
+
   
 //   .services ul {
 //     flex-direction: column;
 //   }
   
-//   .flexChild {
-//     flex-direction: column;
-//     align-items: center;
-//   }
+  .flex-child {
+    flex-direction: column;
+    align-items: center;
+  }
   
-//   .flexParent .flexChild:first-child {
-//     flex-direction: column-reverse;
-//     margin-top: 20px;
-//   }
+  .flex-child:nth-of-type(2) {
+    flex-direction: column-reverse;
+    margin-top: 20px;
+  }
   
-//   .wordContainer {
-//     width: 80%;
-//     margin: 20px auto;
-//   }
+  .word-container {
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  .word-container button {
+      display: flex;
+      align-self: flex-end;
+      margin-top: 25px;
+  }
   
 //   .wordContainer h4,
 //   .wordContainer p {

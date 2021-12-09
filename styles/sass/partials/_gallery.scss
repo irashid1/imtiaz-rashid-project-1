@@ -1,4 +1,4 @@
-.galleryContainer {
+.gallery-container {
     display: flex;
     justify-content: center;
     margin: 50px auto;
@@ -7,7 +7,7 @@
     width: 100%;
 }
 
-.galleryContainer img {
+.gallery-container img {
     width: calc(100% / 3 - 50px);
     margin: 15px;
 }
