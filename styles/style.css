@@ -226,6 +226,12 @@ header nav li {
           align-items: center;
 }
 
+.index-title h1::before {
+  content: url(../assets/circle-text.png);
+  position: relative;
+  z-index: 10;
+}
+
 .index-title img {
   display: block;
   float: left;
@@ -693,6 +699,10 @@ footer {
     margin-top: 50px;
   }
 
+  .flex-child img {
+    width: 100%;
+  }
+
   .about-flex {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -890,7 +900,7 @@ footer {
     height: 90vh;
   }
 }
-@media (max-width: 568px) {
+@media (max-width: 576px) {
   .index-header {
     height: 75vh;
   }

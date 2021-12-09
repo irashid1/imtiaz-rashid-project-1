@@ -16,7 +16,6 @@ header nav ul {
 //      visibility: hidden;
 // }
 
-
 // end of general styling
 
 // start index-header styling
@@ -34,6 +33,12 @@ header nav li {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.index-title h1::before {
+    content: url(../assets/circle-text.png);
+    position: relative;
+    z-index: 10;
 }
 
 .index-title img {
