@@ -8,22 +8,31 @@ main {
     width: 85%;
 }
 
+.highlight a {
+    color: #e4a436;
+}
+
+.green-font {
+    color: green;
+    font-weight: bold;
+}
+
 // flexParent section in index.html styling
 
 
-.flexParent {
+.flex-parent {
   padding: 40px 0;
 }
 
-.flexChild {
+.flex-child {
     display: flex;
 }
 
-.flexChild img {
+.flex-child img {
     width: 50%;
 }
 
-.wordContainer {
+.word-container {
     width: 50%;
     padding: 75px;
     display: flex;
@@ -31,15 +40,15 @@ main {
     justify-content: space-between;
 }
 
-.wordContainer p {
+.word-container p {
     color: black;
 }
 
-.wordContainer span {
+.word-container span {
     display: block;
 }
 
-.wordContainer button {
+.word-container button {
     background-color: #e4a436;
     width: 200px;
     height: 50px;

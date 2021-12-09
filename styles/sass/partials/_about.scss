@@ -1,5 +1,5 @@
 .index-about {
-    padding: 100px auto;
+    padding: 100px;
     text-align: center;
     background-color: #f6f6f6;
     h2, p, button {
@@ -20,18 +20,18 @@
     border: none;
 }
 
-.aboutFlex {
+.about-flex {
     display: flex;
 }
 
-.aboutImg {
+.about-image {
     width: calc(40% - 40px);
     margin-right: 40px;
     padding: 50px;
     align-self: center;
 }
 
-.contentContainer {
+.content-container {
     width: 60%;
     padding: 100px;
     h2 {
@@ -39,7 +39,7 @@
     }
 }
 
-.contentContainer p {
+.content-container p {
     padding: 20px 0;
 }
 

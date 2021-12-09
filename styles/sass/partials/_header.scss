@@ -15,6 +15,8 @@ header nav ul {
 // i.fa-bars {
 //      visibility: hidden;
 // }
+
+
 // end of general styling
 
 // start index-header styling
@@ -28,14 +30,18 @@ header nav li {
     padding: 20px 0;
 }
 
-// header nav li a:nth-child(1) {
-//     color: #e4a436;
-// } <-- why is this not working?
-
 .index-title {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.index-title img {
+  display: block;
+  float: left;
+  box-shadow:  20px 20px white;
+//   -webkit-box-shadow: 3px 3px 1px #ccc;
+//   -moz-box-shadow: 3px 3px 1px #ccc;
 }
 
 
