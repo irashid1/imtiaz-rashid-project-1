@@ -119,7 +119,7 @@
     }
 
     .contact-container-parent {
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
     }
 
@@ -212,7 +212,7 @@
 
     .top-contact-card, 
     .bottom-contact-card {
-        flex-direction: column;
+        flex-direction: column-reverse;
         .cards {
         width: 100%;
     }
@@ -223,8 +223,10 @@
 
     .user-input-1, 
     .user-input-2 {
-        width: 100%;
-        margin: 10px 0;
+        input {
+            width: 100%;
+            margin: 10px 0;
+        }
     }
 
     .contact-message-box form {

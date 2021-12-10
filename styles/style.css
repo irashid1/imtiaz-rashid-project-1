@@ -523,10 +523,6 @@ form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
   margin-bottom: 20px;
 }
 
@@ -776,9 +772,9 @@ footer {
 
   .contact-container-parent {
     -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -890,9 +886,9 @@ footer {
   .top-contact-card,
 .bottom-contact-card {
     -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
   }
   .top-contact-card .cards,
 .bottom-contact-card .cards {
@@ -905,10 +901,10 @@ footer {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .top-contact-card .user-input-1,
-.top-contact-card .user-input-2,
-.bottom-contact-card .user-input-1,
-.bottom-contact-card .user-input-2 {
+  .top-contact-card .user-input-1 input,
+.top-contact-card .user-input-2 input,
+.bottom-contact-card .user-input-1 input,
+.bottom-contact-card .user-input-2 input {
     width: 100%;
     margin: 10px 0;
   }
