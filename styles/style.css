@@ -301,6 +301,15 @@ a {
   text-transform: uppercase;
 }
 
+.highlight a {
+  color: #e4a436;
+}
+
+.green-font {
+  color: green;
+  font-weight: bold;
+}
+
 .index-about {
   padding: 100px;
   text-align: center;
@@ -360,15 +369,6 @@ main {
 .wrapper {
   margin: 0 auto;
   width: 85%;
-}
-
-.highlight a {
-  color: #e4a436;
-}
-
-.green-font {
-  color: green;
-  font-weight: bold;
 }
 
 .flex-parent {
