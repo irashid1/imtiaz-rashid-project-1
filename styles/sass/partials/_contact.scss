@@ -19,14 +19,16 @@
     }
 }
 
-// .cards-photos {
-//     h3::before {
-//         content: url(../assets/circle-text.png);
-//         position: relative;
-//         z-index: 10;
-//     }
-// }
+.icon-container {
+    height: 50px;
+    width: 50px;
+    background-color: #e4a436;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
 
 // contact.html styling
 
