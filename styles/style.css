@@ -703,7 +703,8 @@ footer {
   }
 
   .index-header {
-    height: 55vh;
+    height: 60vh;
+    min-height: 500px;
   }
 
   .index-about {
