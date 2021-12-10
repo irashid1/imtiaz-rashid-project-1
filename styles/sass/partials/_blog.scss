@@ -78,7 +78,7 @@ form {
   
 }
 
-.userInputs {
+.user-inputs {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -87,17 +87,17 @@ form {
 }
 
 
-.userInput1, 
-.userInput2 {
+.user-input-1, 
+.user-input-2 {
     width: calc((100% / 2) - 7.5px);
 }
 
-.userInput1 {
+.user-input-1 {
     margin-right: 10px;
 }
 
-.userInput1, 
-.userInput2 {
+.user-input-1, 
+.user-input-2 {
     input {
         padding: 0px;
     }
@@ -109,8 +109,8 @@ input {
     
 }
 
-.userInput1 label, 
-.userInput2 label, 
+.user-input-1 label, 
+.user-input-2 label, 
 label {
     display: block;
     padding-bottom: 10px;

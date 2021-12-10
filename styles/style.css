@@ -514,7 +514,7 @@ form {
   padding-top: 50px;
 }
 
-.userInputs {
+.user-inputs {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -526,17 +526,17 @@ form {
   margin-bottom: 20px;
 }
 
-.userInput1,
-.userInput2 {
+.user-input-1,
+.user-input-2 {
   width: calc((100% / 2) - 7.5px);
 }
 
-.userInput1 {
+.user-input-1 {
   margin-right: 10px;
 }
 
-.userInput1 input,
-.userInput2 input {
+.user-input-1 input,
+.user-input-2 input {
   padding: 0px;
 }
 
@@ -545,8 +545,8 @@ input {
   height: 50px;
 }
 
-.userInput1 label,
-.userInput2 label,
+.user-input-1 label,
+.user-input-2 label,
 label {
   display: block;
   padding-bottom: 10px;
@@ -894,17 +894,17 @@ footer {
 .bottom-contact-card .cards {
     width: 100%;
   }
-  .top-contact-card .userInputs,
-.bottom-contact-card .userInputs {
+  .top-contact-card .user-inputs,
+.bottom-contact-card .user-inputs {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .top-contact-card .userInput1,
-.top-contact-card .userInput2,
-.bottom-contact-card .userInput1,
-.bottom-contact-card .userInput2 {
+  .top-contact-card .user-input-1,
+.top-contact-card .user-input-2,
+.bottom-contact-card .user-input-1,
+.bottom-contact-card .user-input-2 {
     width: 100%;
     margin: 10px 0;
   }
