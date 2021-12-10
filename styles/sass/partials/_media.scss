@@ -28,11 +28,6 @@
 
 @media (max-width: 992px) {
 
-    //   i.fa-bars {
-    //         visibility: visible;
-    //         font-size: 35px;
-    //     }
-
     img {
         width: 100%;
     }
@@ -49,11 +44,11 @@
     }
 
 
-// index media
+// index.html media
 
     .index-header {
-    height: 60vh;
-    min-height: 500px;
+        height: 60vh;
+        min-height: 500px;
     }
 
     .index-about {
@@ -65,7 +60,7 @@
 
 
 
-// blog section in index
+// blog section in index.html
 
 
     .index-blog {
@@ -77,7 +72,7 @@
     }
 
 
-// about section in index
+// about section in index.html
 
 
     .about-flex {
@@ -100,7 +95,7 @@
         padding-top: 20px;
     }
   
-// blog media 
+// blog.html media 
 
     .container-parent {
         flex-direction: column;
@@ -116,7 +111,7 @@
         margin-left: 0px;
     }
 
-// contact media 
+// contact.html media 
 
     .contact-left-container,
     .contact-right-container {

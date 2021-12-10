@@ -38,9 +38,9 @@ header nav li {
 // }
 
 .index-title img {
-  display: block;
-  float: left;
-  box-shadow:  20px 20px white;
+    display: block;
+    float: left;
+    box-shadow:  20px 20px white;
 }
 
 
@@ -51,12 +51,14 @@ header nav li {
 
 .blog-header-title {
     background-image: url(../assets/blog-image-1.jpg);
+    background-size: cover;
     height: 400px;
     position: relative;
     h1 {
     position: absolute;
     bottom: -15px;
-}
+    
+    }
 }
 
 
@@ -66,12 +68,14 @@ header nav li {
 
 .contact-header-title {
     background-image: url(../assets/contact-image-1.jpg);
+    background-size: cover;
     height: 400px;
     position: relative;
     h1 {
     position: absolute;
     bottom: -15px;
-}
+    
+    }
 }
 
 // end of contact-header styling 
