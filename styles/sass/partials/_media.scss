@@ -16,6 +16,13 @@
     .word-container {
         padding: 35px;
     }
+
+    .top-contact-card, 
+    .bottom-contact-card {
+        .cards {
+            padding: 0px;
+        }
+    }
   
 }
 
@@ -26,10 +33,7 @@
     //         font-size: 35px;
     //     }
     
-    //   .headerNav li, 
-    //   .socialMediaIcons {
-    //     visibility: hidden;
-    //   }    
+    
 
     img {
         width: 100%;
@@ -51,10 +55,11 @@
 
     .index-header {
     height: 55vh;
+    min-height: 350px;
     }
 
     .index-about {
-        padding-top: 150px;
+        padding-top: 175px;
         h2 {
         padding-top: 25px;
         }
@@ -172,16 +177,18 @@
 
     nav ul li {
         a {
-        visibility: hidden;
+        display: none;
         }
         h2 {
           align-self: flex-start;
+          margin: 0px;
         }
     }
 
-    // i.fa-bars {
-    //  visibility: hidden;
-    // }
+    .collapsed-menu {
+        float: right;
+        display: block;
+    }
 
         img {
         width: 100%;
@@ -201,7 +208,6 @@
     }
 
     .index-about {
-        padding-top: 175px;
         h2 {
             padding-top: 0px;
         }

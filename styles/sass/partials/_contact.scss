@@ -24,11 +24,20 @@
     width: 50px;
     background-color: #e4a436;
     border-radius: 50%;
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
+    margin-top: 5px;
 
 }
+
+.icon-word-container {
+    display: inline;
+    float: left;
+    width: 90%;
+    
+}
+
 
 // contact.html styling
 
