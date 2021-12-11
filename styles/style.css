@@ -900,6 +900,7 @@ footer {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    border: 2px solid black;
   }
   .top-contact-card .user-input-1 input,
 .top-contact-card .user-input-2 input,
