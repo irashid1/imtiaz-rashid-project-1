@@ -206,6 +206,10 @@ header nav ul {
   padding-left: 0px;
 }
 
+.menu-item a:hover {
+  color: #e4a436;
+}
+
 .index-header {
   height: 75vh;
 }
@@ -305,10 +309,6 @@ a {
   text-transform: uppercase;
 }
 
-.highlight a {
-  color: #e4a436;
-}
-
 .green-font {
   color: green;
   font-weight: bold;
@@ -319,7 +319,9 @@ a {
   text-align: center;
   background-color: #f6f6f6;
 }
-.index-about h2, .index-about p, .index-about button {
+.index-about h2,
+.index-about p,
+.index-about button {
   margin: 15px 0;
 }
 

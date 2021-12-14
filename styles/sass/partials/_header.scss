@@ -13,6 +13,9 @@ header nav ul {
     padding-left: 0px;
 }
 
+.menu-item a:hover {
+    color: #e4a436;
+}
 // end of general styling
 
 // start index-header styling
@@ -41,12 +44,10 @@ header nav li {
 .index-title img {
     display: block;
     float: left;
-    box-shadow:  20px 20px white;
+    box-shadow: 20px 20px white;
 }
 
-
-// end of index-header styling 
-
+// end of index-header styling
 
 // start of blog-header styling
 
@@ -56,12 +57,10 @@ header nav li {
     height: 400px;
     position: relative;
     h1 {
-    position: absolute;
-    bottom: -15px;
-    
+        position: absolute;
+        bottom: -15px;
     }
 }
-
 
 // end of blog-header styling
 
@@ -73,10 +72,9 @@ header nav li {
     height: 400px;
     position: relative;
     h1 {
-    position: absolute;
-    bottom: -15px;
-    
+        position: absolute;
+        bottom: -15px;
     }
 }
 
-// end of contact-header styling 
+// end of contact-header styling

@@ -2,7 +2,9 @@
     padding: 100px;
     text-align: center;
     background-color: #f6f6f6;
-    h2, p, button {
+    h2,
+    p,
+    button {
         margin: 15px 0;
     }
 }
@@ -12,7 +14,7 @@
     background-color: #f6f6f6;
 }
 
-.index-post button, 
+.index-post button,
 .index-about button {
     background-color: #e4a436;
     width: 200px;
@@ -25,15 +27,13 @@
 }
 
 .about-image {
-    
     margin: 50px;
     align-self: center;
     img {
         display: block;
         float: left;
-        box-shadow:  20px 20px #709b6b;
+        box-shadow: 20px 20px #709b6b;
     }
-    
 }
 
 .content-container {

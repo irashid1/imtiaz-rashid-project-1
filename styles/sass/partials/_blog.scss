@@ -17,12 +17,11 @@
 
 // left container styling and border
 
-.blog-about, 
+.blog-about,
 .blog-post {
     background-color: white;
     padding: 35px;
     margin-top: 35px;
-
 }
 
 .blog-about img {
@@ -31,14 +30,14 @@
 
 // right container styling and border
 
-.blog-newest-post, 
+.blog-newest-post,
 .blog-first-comment,
 .blog-second-comment {
     background-color: white;
     margin-top: 35px;
 }
 
-.blog-newest-post, 
+.blog-newest-post,
 .blog-second-comment {
     border-top: 0px;
     border-bottom: 5px;
@@ -48,7 +47,7 @@
     border-color: #709b6b;
 }
 
-.blog-first-comment, 
+.blog-first-comment,
 .blog-second-comment {
     display: flex;
     padding: 35px;
@@ -61,7 +60,7 @@
 
 .blog-newest-post {
     padding: 35px;
-    h2, 
+    h2,
     p {
         padding: 25px;
     }
@@ -70,23 +69,20 @@
 // messageBox styling
 
 form {
-  width: 100%;
-  
-  display: flex;
-  flex-direction: column;
-  padding-top: 50px;
-  
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
 }
 
 .user-inputs {
     width: 100%;
     display: flex;
     margin-bottom: 20px;
-    
 }
 
-
-.user-input-1, 
+.user-input-1,
 .user-input-2 {
     width: calc((100% / 2) - 7.5px);
 }
@@ -95,7 +91,7 @@ form {
     margin-right: 10px;
 }
 
-.user-input-1, 
+.user-input-1,
 .user-input-2 {
     input {
         padding: 0px;
@@ -105,11 +101,10 @@ form {
 input {
     width: 100%;
     height: 50px;
-    
 }
 
-.user-input-1 label, 
-.user-input-2 label, 
+.user-input-1 label,
+.user-input-2 label,
 label {
     display: block;
     padding-bottom: 10px;
