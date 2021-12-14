@@ -871,6 +871,10 @@ footer {
         align-self: flex-start;
   }
 
+  h1 {
+    visibility: hidden;
+  }
+
   .hamburger-menu i {
     display: block;
   }
