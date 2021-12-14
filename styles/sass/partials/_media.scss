@@ -2,17 +2,17 @@
 
 @media (max-width: 1200px) {
 
-    .about-img {
-        padding: 0;
-        width: 80%;
-        max-width: 350px;
-        align-self: center;
+.about-img {
+    padding: 0;
+    width: 80%;
+    max-width: 350px;
+    align-self: center;
     }
-  
+
     .flex-child img {
         max-width: 650px;
     }
-  
+
     .word-container {
         padding: 35px;
     }
@@ -23,7 +23,7 @@
             padding: 0px;
         }
     }
-  
+
 }
 
 @media (max-width: 992px) {
@@ -31,20 +31,19 @@
     img {
         width: 100%;
     }
-  
+
     button {
         width: 100%;
         justify-content: center;
         align-items: center;
     }
-  
+
     h1 {
         display: flex;
         text-align: center;
     }
 
-
-// index.html media
+    // index.html media
 
     .index-header {
         height: 60vh;
@@ -54,14 +53,11 @@
     .index-about {
         padding-top: 175px;
         h2 {
-        padding-top: 25px;
+            padding-top: 25px;
         }
     }
 
-
-
-// blog section in index.html
-
+    // blog section in index.html
 
     .index-blog {
         margin-top: 50px;
@@ -71,9 +67,7 @@
         width: 100%;
     }
 
-
-// about section in index.html
-
+    // about section in index.html
 
     .about-flex {
         flex-direction: column;
@@ -86,7 +80,7 @@
         width: 80%;
         max-width: 350px;
         justify-content: center;
-        margin-top: 20px
+        margin-top: 20px;
     }
 
     .content-container {
@@ -94,8 +88,8 @@
         text-align: center;
         padding-top: 20px;
     }
-  
-// blog.html media 
+
+    // blog.html media
 
     .container-parent {
         flex-direction: column;
@@ -111,9 +105,9 @@
         margin-left: 0px;
     }
 
-// contact.html media 
+    // contact.html media
 
-    .contact-left-container,
+    .contact-left-container, 
     .contact-right-container {
         width: 100%;
     }
@@ -138,20 +132,19 @@
     }
 
     .post-comment-button {
-        margin: 10px 0;
+        margin: 10px 0px;
     }
-  
-  
+
     .flex-child {
         flex-direction: column;
         align-items: center;
     }
-  
+
     .flex-child:nth-of-type(2) {
         flex-direction: column-reverse;
         margin-top: 20px;
     }
-  
+
     .word-container {
         width: 80%;
         margin: 20px auto;
@@ -162,19 +155,16 @@
         align-self: flex-end;
         margin-top: 25px;
     }
-  
 
 }
 
 @media (max-width: 768px) {
-
     nav ul li {
         a {
-        display: none;
+            display: none;
         }
         h2 {
-          align-self: flex-start;
-          margin: 0px;
+            align-self: flex-start;
         }
     }
 
@@ -183,15 +173,14 @@
         display: block;
     }
 
-        img {
+    img {
         width: 100%;
     }
 
     .index-title {
         flex-direction: column;
         img {
-        // margin-top: 50px;
-        max-width: 350px;
+            max-width: 350px;
         }
     }
 
@@ -214,7 +203,8 @@
     .bottom-contact-card {
         flex-direction: column-reverse;
         .cards {
-        width: 100%;
+            width: 100%;
+        }
     }
 
     .user-inputs {
@@ -223,25 +213,24 @@
 
     .user-input-1, 
     .user-input-2 {
+        width: 100%;
         input {
-            width: 100%;
-            margin: 10px 0;
+            margin-top: 15px;
         }
+    }
+
+    .contact-right-container {
+        margin-top: 25px;
     }
 
     .contact-message-box form {
         padding-top: 0px;
     }
-  
-}
 
 }
 
 @media (max-width: 480px) {
-
     h1 {
         font-size: 60px;
     }
-  
-  
-}  
+}

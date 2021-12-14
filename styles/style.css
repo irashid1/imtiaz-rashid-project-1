@@ -801,7 +801,7 @@ footer {
   }
 
   .post-comment-button {
-    margin: 10px 0;
+    margin: 10px 0px;
   }
 
   .flex-child {
@@ -843,7 +843,6 @@ footer {
   nav ul li h2 {
     -ms-flex-item-align: start;
         align-self: flex-start;
-    margin: 0px;
   }
 
   .collapsed-menu {
@@ -894,23 +893,28 @@ footer {
 .bottom-contact-card .cards {
     width: 100%;
   }
-  .top-contact-card .user-inputs,
-.bottom-contact-card .user-inputs {
+
+  .user-inputs {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    border: 2px solid black;
   }
-  .top-contact-card .user-input-1 input,
-.top-contact-card .user-input-2 input,
-.bottom-contact-card .user-input-1 input,
-.bottom-contact-card .user-input-2 input {
+
+  .user-input-1,
+.user-input-2 {
     width: 100%;
-    margin: 10px 0;
   }
-  .top-contact-card .contact-message-box form,
-.bottom-contact-card .contact-message-box form {
+  .user-input-1 input,
+.user-input-2 input {
+    margin-top: 15px;
+  }
+
+  .contact-right-container {
+    margin-top: 25px;
+  }
+
+  .contact-message-box form {
     padding-top: 0px;
   }
 }
