@@ -155,7 +155,17 @@
 }
 
 @media (max-width: 768px) {
+    .menu-item-container {
+        justify-content: space-between;
+    }
+
+    .menu-item,
+    .menu-item-active {
+        display: none;
+    }
+
     nav ul li {
+        margin: 0px;
         a {
             display: none;
         }
@@ -164,10 +174,14 @@
         }
     }
 
-    .collapsed-menu {
-        float: right;
+    .hamburger-menu i {
         display: block;
     }
+
+    // .collapsed-menu {
+    //     float: right;
+    //     display: block;
+    // }
 
     img {
         width: 100%;
