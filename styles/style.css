@@ -207,6 +207,10 @@ header nav ul {
 }
 
 .menu-item a:hover {
+  color: #e6cfa8;
+}
+
+.menu-item-active a {
   color: #e4a436;
 }
 
