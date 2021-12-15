@@ -1,5 +1,4 @@
 const targetElement = document.querySelector('.hamburger-menu');
-console.log(targetElement);
 
 targetElement.addEventListener('click', function (event) {
     console.log(event);
