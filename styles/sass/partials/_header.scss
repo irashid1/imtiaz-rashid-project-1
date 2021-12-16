@@ -21,12 +21,25 @@ header nav ul {
     color: #e4a436;
 }
 
-.hamburger-menu-nav,
+// .hamburger-menu-nav,
 .hamburger-menu i {
     color: white;
     font-size: 25px;
     display: none;
 }
+
+.hamburger-menu-item:hover {
+    background-color: #1e301e;
+}
+
+.hamburger-menu-item a:hover {
+    color: #e6cfa8;
+}
+
+.hamburger-menu-item-active a {
+    color: #e4a436;
+}
+
 // end of general styling
 
 // start index-header styling

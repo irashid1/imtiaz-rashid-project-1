@@ -214,11 +214,22 @@ header nav ul {
   color: #e4a436;
 }
 
-.hamburger-menu-nav,
 .hamburger-menu i {
   color: white;
   font-size: 25px;
   display: none;
+}
+
+.hamburger-menu-item:hover {
+  background-color: #1e301e;
+}
+
+.hamburger-menu-item a:hover {
+  color: #e6cfa8;
+}
+
+.hamburger-menu-item-active a {
+  color: #e4a436;
 }
 
 .index-header {
@@ -869,15 +880,33 @@ footer {
     display: none;
   }
 
-  nav ul li {
+  .index-header-nav ul li {
     margin: 0px;
   }
-  nav ul li a {
+  .index-header-nav ul li a {
     display: none;
   }
-  nav ul li h2 {
+  .index-header-nav ul li h2 {
     -ms-flex-item-align: start;
         align-self: flex-start;
+  }
+
+  .hamburger-menu-nav {
+    position: absolute;
+    right: 20px;
+    top: 60px;
+  }
+  .hamburger-menu-nav ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .hamburger-menu-nav ul li {
+    background-color: #2a4229;
+    width: 175px;
+    text-align: center;
+    z-index: 10;
   }
 
   .index-header h1 {

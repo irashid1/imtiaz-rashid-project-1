@@ -164,13 +164,29 @@
         display: none;
     }
 
-    nav ul li {
+    .index-header-nav ul li {
         margin: 0px;
         a {
             display: none;
         }
         h2 {
             align-self: flex-start;
+        }
+    }
+
+    .hamburger-menu-nav {
+        position: absolute;
+        right: 20px;
+        top: 60px;
+        ul {
+            flex-direction: column;
+            
+            li {
+                background-color: #2a4229;
+                width: 175px;
+                text-align: center;
+                z-index: 10;
+            }
         }
     }
 
