@@ -1,14 +1,22 @@
-const targetElement = document.querySelector('.hamburger-menu');
+const hamburgerMenuIcon = document.querySelector('.hamburger-menu');
+hamburgerMenuIcon.addEventListener('click', toggleMenuVisibility);
 
-targetElement.addEventListener('click', function (event) {
-    console.log(event);
+function toggleMenuVisibility(event) {
     if (event.target.tagName === 'I') {
-        updateNavBar(event.target);
+        const hamburgerMenuNav = document.querySelector('.hamburger-menu-nav');
+        let menuVisibility = hamburgerMenuNav.style.display;
+        if (menuVisibility == "none" || menuVisibility == "") {
+            showMenu(hamburgerMenuNav);
+        } else {
+            hideMenu(hamburgerMenuNav);
+        }
     }
-});
+}
 
- function updateNavBar() {
-//     iElement.classList.toggle('fa-square');
-//     iElement.classList.toggle('fa-check-square');
-//     iElement.parentElement.classList.toggle('text-muted');
+function showMenu(menu) {
+    menu.style.display = "block";
+}
+
+function hideMenu(menu) {
+    menu.style.display = "none";
 }

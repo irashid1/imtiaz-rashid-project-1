@@ -1,6 +1,9 @@
 /* ==== media queries ==== */
 
 @media (max-width: 1200px) {
+    .hamburger-menu-nav {
+        display: none;
+    }
     .about-img {
         padding: 0;
         width: 80%;
@@ -25,6 +28,10 @@
 }
 
 @media (max-width: 992px) {
+    .hamburger-menu-nav {
+        display: none;
+    }
+
     img {
         width: 100%;
     }
@@ -154,6 +161,12 @@
     }
 }
 
+@media (min-width: 768px) {
+    .hamburger-menu-nav {
+        display: none;
+    }
+}
+
 @media (max-width: 768px) {
     .menu-item-container {
         justify-content: space-between;
@@ -180,7 +193,7 @@
         top: 60px;
         ul {
             flex-direction: column;
-            
+
             li {
                 background-color: #2a4229;
                 width: 175px;

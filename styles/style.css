@@ -214,6 +214,10 @@ header nav ul {
   color: #e4a436;
 }
 
+.hamburger-menu-nav {
+  display: none;
+}
+
 .hamburger-menu i {
   color: white;
   font-size: 25px;
@@ -690,6 +694,10 @@ footer {
 
 /* ==== media queries ==== */
 @media (max-width: 1200px) {
+  .hamburger-menu-nav {
+    display: none;
+  }
+
   .about-img {
     padding: 0;
     width: 80%;
@@ -712,6 +720,10 @@ footer {
   }
 }
 @media (max-width: 992px) {
+  .hamburger-menu-nav {
+    display: none;
+  }
+
   img {
     width: 100%;
   }
@@ -866,6 +878,11 @@ footer {
     -ms-flex-item-align: end;
         align-self: flex-end;
     margin-top: 25px;
+  }
+}
+@media (min-width: 768px) {
+  .hamburger-menu-nav {
+    display: none;
   }
 }
 @media (max-width: 768px) {
