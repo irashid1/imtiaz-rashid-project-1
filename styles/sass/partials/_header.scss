@@ -25,6 +25,19 @@ header nav ul {
 
 .hamburger-menu-nav {
     display: none;
+    position: absolute;
+    right: 20px;
+    top: 60px;
+    ul {
+        flex-direction: column;
+
+        li {
+            background-color: #2a4229;
+            width: 175px;
+            text-align: center;
+            z-index: 10;
+        }
+    }
 }
 
 .hamburger-menu i {
